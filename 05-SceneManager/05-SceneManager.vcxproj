@@ -118,7 +118,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir);D:\schooling\hkiv\game dev\imgui-master\imgui-master;D:\schooling\hkiv\game dev\imgui-master\imgui-master\backends;D:\schooling\hkiv\game dev\projects\06-MyProject\05-SceneManager</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);D:\schooling\hkiv\game dev\imgui-master\imgui-master;D:\schooling\hkiv\game dev\imgui-master\imgui-master\backends;D:\schooling\hkiv\game dev\projects\06-MyProject\05-SceneManager;$(ProjectDir)imgui-master\imgui-master</AdditionalIncludeDirectories>
       <AdditionalUsingDirectories>D:\schooling\hkiv\game dev\projects\06-MyProject\05-SceneManager;D:\schooling\hkiv\game dev\imgui-master\imgui-master;D:\schooling\hkiv\game dev\imgui-master\imgui-master\backends;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
     </ClCompile>
     <Link>
@@ -135,7 +135,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\schooling\hkiv\game dev\projects\clone res\packages\Microsoft.DXSDK.D3DX.9.29.952.8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\schooling\hkiv\game dev\projects\clone res\packages\Microsoft.DXSDK.D3DX.9.29.952.8;%(AdditionalIncludeDirectories);$(ProjectDir)imgui-master\imgui-master</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
