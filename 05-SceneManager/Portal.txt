@@ -1,0 +1,5 @@
+# id	left	top	right	bottom	texture_id
+
+[SPRITES]
+51	273	35	287	50	30
+52	324	35	338	50	30

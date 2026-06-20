@@ -1,0 +1,36 @@
+# id	left	top	right	bottom	texture_id
+
+[SPRITES]
+#IDLE
+60011	2	209	14	220	30
+
+#WALKING
+60012	19	209	31	220	30
+60013	36	209	48	220	30
+60014	53	209	65	220	30
+
+#JUMPING
+60015	69	209	83	220	30
+
+#FALL
+60016	86	209	100	220	30
+
+#DEAD
+60017	104	213	117	220	30
+#Animation
+# ani_id	sprite1_id	time1	sprite2_id	time2	...
+[ANIMATIONS]
+#idle
+1231	60011	100
+
+#walking
+1232	60012	100	60013	100	60014	100
+
+#jump
+1233	60015	100
+
+#fall
+1234	60016	100
+
+#die
+1235	60017	100

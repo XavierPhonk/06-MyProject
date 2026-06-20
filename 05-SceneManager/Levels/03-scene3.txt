@@ -1,0 +1,338 @@
+# DUMPED FROM IMGUI LEVEL EDITOR
+[ASSETS]
+Player.txt
+SpringPad.txt
+brick.txt
+SpringPad.txt
+CheckPoint.txt
+cloud.txt
+RowOfBrick.txt
+Spike.txt
+JumpGem.txt
+Portal.txt
+
+
+[OBJECTS]
+# See OBJECT_TYPE constants in AssetIDs.h
+# 60001	: Player
+# 1		: Brick
+# 8000		: Row of brick
+# 5		: Platform (cloud)
+# 9000		: Spike
+# 8		: Spring Pad
+# 7000		: Checkpoint
+# 6		: Gem
+# 50		: Portal
+
+# Format: [ObjectType] [X] [Y] [Extra Params...]
+
+#Player
+#id	x	y	(Y_levelBoundary)
+#Object[0]
+60001	159.024	132.964	1700
+
+#Row of brick
+#id      x   y   cwid chei  len   Spr_be     mid	end	      vertical? (1 for vertical)
+#Object[1]
+8000 	129	178	15	20	5	8001	8001	8001	0
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[2]
+9000	210	156	0	15
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[3]
+9000	-209	390	0	50
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[4]
+9000	210	76	2	15
+
+#Gem
+#id    x      y      type
+#Object[5]
+6	246	103	1
+
+#Gem
+#id    x      y      type
+#Object[6]
+6	309	109	1
+
+#Gem
+#id    x      y      type
+#Object[7]
+6	378	119	1
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[8]
+9000	532	-92	1	20
+
+#Gem
+#id    x      y      type
+#Object[9]
+6	506	167	0
+
+#Gem
+#id    x      y      type
+#Object[10]
+6	506	129	0
+
+#Gem
+#id    x      y      type
+#Object[11]
+6	506	47	0
+
+#Gem
+#id    x      y      type
+#Object[12]
+6	506	87	0
+
+#Brick
+#id	x	y	type
+#Object[13]
+1	467	213	1
+
+#Brick
+#id	x	y	type
+#Object[15]
+1	264	67	2
+
+#Brick
+#id	x	y	type
+#Object[17]
+1	348	67	2
+
+#Brick
+#id	x	y	type
+#Object[19]
+1	430	67	2
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[20]
+9000	211	-33	2	20
+
+#Row of brick
+#id      x   y   cwid chei  len   Spr_be     mid	end	      vertical? (1 for vertical)
+#Object[21]
+8000 	42	80	15	20	5	8001	8001	8001	0
+
+#Spring Pad
+#Object[22]
+8	63	70
+
+#Brick
+#id	x	y	type
+#Object[23]
+1	141	-44	1
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[24]
+9000	266	-155	1	8
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[25]
+9000	211	-241	3	8
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[26]
+9000	211	-246	2	20
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[27]
+9000	359	-242	1	9
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[28]
+9000	277	-164	0	3
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[29]
+9000	567	-97	0	5
+
+#Gem
+#id    x      y      type
+#Object[30]
+6	244	-83	0
+
+#Gem
+#id    x      y      type
+#Object[31]
+6	244	-124	0
+
+#Gem
+#id    x      y      type
+#Object[32]
+6	244	-163	0
+
+#Gem
+#id    x      y      type
+#Object[33]
+6	244	-201	1
+
+#Gem
+#id    x      y      type
+#Object[34]
+6	336	-86	1
+
+#Gem
+#id    x      y      type
+#Object[35]
+6	417	-64	0
+
+#Gem
+#id    x      y      type
+#Object[36]
+6	458	-90	0
+
+#Gem
+#id    x      y      type
+#Object[37]
+6	495	-121	1
+
+#Gem
+#id    x      y      type
+#Object[38]
+6	569	-120	0
+
+#Spring Pad
+#Object[39]
+8	574	-140
+
+#Checkpoint
+#Object[40]
+7000	546	-264
+
+#Platform
+#id	x	y	cellwidth	cellheight	length	spritebegin	mid	end
+#Object[41]
+5	540	-247	15	15	2	51000	52000	53000
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[42]
+9000	531	-238	1	5
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[43]
+9000	596	-340	1	15
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[44]
+9000	561	-236	1	5
+
+#Brick
+#id	x	y	type
+#Object[45]
+1	545	-153	1
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[46]
+9000	561	-87	1	10	
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[47]
+9000	542	127	0	5	
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[48]
+9000	615	139	3	115
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[49]
+9000	695	42	1	120	
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[50]
+9000	629	104	1	3	
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[51]
+9000	667	133	0	2	
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[52]
+9000	622	385	0	3	
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[53]
+9000	659	711	0	3	
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[54]
+9000	620	925	0	3	
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[55]
+9000	659	1110	0	3	
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[56]
+9000	620	1295	0	3	
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[57]
+9000	676	1407	0	2	
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[58]
+9000	619	1496	0	3	
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[59]
+9000	657	1459	1	3	
+
+#Gem
+#id    x      y      type
+#Object[60]
+6	638	1473	0	
+
+#Spring Pad
+#Object[61]
+8	677	1556	
+
+#Door===========================================
+#id    x      y      r		b	next scene
+#Object[62]
+50	682	1642	0	0	4
+
+#Row of brick
+#id      x   y   cwid chei  len   Spr_be     mid	end	      vertical? (1 for vertical)
+#Object[63]
+8000 	666	1656	15	20	2	8001	8001	8001	0
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[64]
+9000	621	1661	0	3	
+
+#Checkpoint
+#Object[65]
+7000	88	56
+

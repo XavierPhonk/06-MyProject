@@ -1,0 +1,248 @@
+# DUMPED FROM IMGUI LEVEL EDITOR
+[ASSETS]
+Player.txt
+SpringPad.txt
+brick.txt
+SpringPad.txt
+CheckPoint.txt
+cloud.txt
+RowOfBrick.txt
+Spike.txt
+JumpGem.txt
+Portal.txt
+
+
+[OBJECTS]
+# See OBJECT_TYPE constants in AssetIDs.h
+# 60001	: Player
+# 1		: Brick
+# 8000		: Row of brick
+# 5		: Platform (cloud)
+# 9000		: Spike
+# 8		: Spring Pad
+# 7000		: Checkpoint
+# 6		: Gem
+# 50		: Portal
+
+# Format: [ObjectType] [X] [Y] [Extra Params...]
+
+#Player
+#id	x	y	(Y_levelBoundary)
+#Object[0]
+60001	203	-361	5000
+
+#Platform
+#id	x	y	cellwidth	cellheight	length	spritebegin	mid	end
+#Object[1]
+5	129	-320	15	20	10	51000	52000	53000	0
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[2]
+9000	122	-395	3	230
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[3]
+9000	271	-396	1	230
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[4]
+9000	130	20	0	2
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[5]
+9000	245	125	0	2
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[6]
+9000	133	232	0	2
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[7]
+9000	248	322	0	2
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[8]
+9000	129	441	0	3
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[9]
+9000	235	503	0	3
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[10]
+9000	170	701	0	3
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[11]
+9000	133	895	0	3
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[12]
+9000	131	984	0	3
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[13]
+9000	131	996	0	4
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[14]
+9000	130	1007	0	5
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[15]
+9000	131	1021	0	6
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[16]
+9000	131	1104		0	7
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[17]
+9000	236	1302	0	3
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[18]
+9000	220	1322	0	4
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[19]
+9000	203	1342	0	5
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[20]
+9000	187	1378	0	6
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[21]
+9000	171	1421	0	7
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[22]
+9000	235	1569	0	3
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[23]
+9000	127	1569	0	3
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[24]
+9000	127	2274	0	5
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[25]
+9000	128	2693	0	5
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[26]
+9000	127	1813	0	5
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[27]
+9000	201	2038	0	5
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[28]
+9000	201	2513	0	5
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[29]
+9000	201	2936	0	5
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[30]
+9000	128	3282	3	30
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[31]
+9000	264	3280	1	30
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[32]
+9000	135	3759	3	20
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[33]
+9000	258	3759	1	20
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[34]
+9000	144	4079	3	20
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[35]
+9000	249	4076	1	20
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[36]
+9000	154	4395	3	10
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[37]
+9000	242	4394	1	10
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[38]
+9000	168	4555	3	10
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[39]
+9000	229	4553	1	10
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[40]
+9000	186	4716	3	10
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[41]
+9000	216	4716	1	10
+
+#Platform
+#id	x	y	cellwidth	cellheight	length	spritebegin	mid	end
+#Object[42]
+5	196	4899	15	20	2	51000	52000	53000	0
+
+#Door===========================================
+#id    x      y      r		b	next scene
+#Object[43]
+50	204	4918	0	0	5
+

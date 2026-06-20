@@ -1,0 +1,58 @@
+# DUMPED FROM IMGUI LEVEL EDITOR
+[ASSETS]
+Player.txt
+SpringPad.txt
+brick.txt
+SpringPad.txt
+CheckPoint.txt
+cloud.txt
+RowOfBrick.txt
+Spike.txt
+JumpGem.txt
+Portal.txt
+
+
+[OBJECTS]
+# See OBJECT_TYPE constants in AssetIDs.h
+# 60001	: Player
+# 1		: Brick
+# 8000		: Row of brick
+# 5		: Platform (cloud)
+# 9000		: Spike
+# 8		: Spring Pad
+# 7000		: Checkpoint
+# 6		: Gem
+# 50		: Portal
+
+# Format: [ObjectType] [X] [Y] [Extra Params...]
+
+#Player
+#id	x	y	(Y_levelBoundary)
+#Object[0]
+60001	163.175	-333.01	5000
+
+#Row of brick
+#id      x   y   cwid chei  len   Spr_be     mid	end	      vertical? (1 for vertical)
+#Object[1]
+8000	129	-320	15	20	5	8001	8001	8001	0
+
+#Row of brick
+#id      x   y   cwid chei  len   Spr_be     mid	end	      vertical? (1 for vertical)
+#Object[3]
+8000	115	-320	15	20	10	8001	8001	8001	1
+
+#Row of brick
+#id      x   y   cwid chei  len   Spr_be     mid	end	      vertical? (1 for vertical)
+#Object[4]
+8000	207	-320	15	20	10	8001	8001	8001	1
+
+#Door===========================================
+#id    x      y      r		b	next scene
+#Object[5]
+50	193	-335	0	0	0	1
+
+#Door===========================================
+#id    x      y      r		b	next scene
+#Object[6]
+50	128	-335	0	0	0
+

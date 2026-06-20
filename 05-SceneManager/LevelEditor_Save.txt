@@ -1,0 +1,63 @@
+# DUMPED FROM IMGUI LEVEL EDITOR
+[ASSETS]
+Player.txt
+cloud.txt
+Portal.txt
+brick.txt
+Spike.txt
+RowOfBrick.txt
+CheckPoint.txt
+JumpGem.txt
+SpringPad.txt
+
+
+[OBJECTS]
+# See OBJECT_TYPE constants in AssetIDs.h
+# Format: [ObjectType] [X] [Y] [Extra Params...]
+
+#Player
+60001	120	160.49
+#Platform
+5 	100	170	15	15	32	51000	52000	53000
+#Platform
+5	140	140	15	15	26	51000	52000	53000
+#Door===========================================
+50	200	160	216	180	2
+#Brick
+1	100	130	0
+#Brick
+1	316	100	1
+#Brick
+1	332	102	1
+#Brick
+1	348	104	2
+#Spike
+9000	100	120	0
+#Spike
+9000	216	120	0
+#Spike
+9000	216	100	1
+#Spike
+9000	216	80	2
+#Spike
+9000	216	60	3
+#Row of brick
+8000 	50	200	15	20	10	8001	8001	8001	0
+#Row of brick
+8000	50	200	15	20	5	8001	8001	8001	1
+#Checkpoint
+7000	80	100
+#Checkpoint
+7000	200	100
+#Gem
+6	100	100	0
+#Gem
+6	300	100	1
+#Gem
+6	400	100	1
+#Gem
+6	460	100	1
+#Gem
+6	520	100	1
+#Spring Pad
+8	150	135

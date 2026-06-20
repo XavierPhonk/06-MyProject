@@ -1,0 +1,27 @@
+[SETTINGS]
+#start	10
+start	5
+width	320
+height	240
+
+#id	type	file
+# type: 0: intro, 1: play scene 
+[SCENES]
+10	Levels\LevelEditor_Save.txt
+#0	Levels\intro.txt
+0	Levels\00-Tutorial.txt
+11	Levels\001-Tutorial2.txt
+1	Levels\01-scene1.txt
+2	Levels\02-scene2.txt
+3	Levels\03-scene3.txt
+4	Levels\04-scene4.txt
+5	Levels\05-title.txt
+#5	scene0005.txt
+
+# id	file 
+[TEXTURES]
+30	textures\monochrome.png
+-100	textures\bbox.png
+#0	textures\mario.png
+10	textures\enemies.png
+20	textures\misc.png

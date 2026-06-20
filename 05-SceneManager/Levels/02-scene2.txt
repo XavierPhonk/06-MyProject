@@ -1,0 +1,218 @@
+# DUMPED FROM IMGUI LEVEL EDITOR
+[ASSETS]
+Player.txt
+SpringPad.txt
+brick.txt
+SpringPad.txt
+CheckPoint.txt
+cloud.txt
+RowOfBrick.txt
+Spike.txt
+JumpGem.txt
+Portal.txt
+
+
+[OBJECTS]
+# See OBJECT_TYPE constants in AssetIDs.h
+# 60001	: Player
+# 1		: Brick
+# 8000		: Row of brick
+# 5		: Platform (cloud)
+# 9000		: Spike
+# 8		: Spring Pad
+# 7000		: Checkpoint
+# 6		: Gem
+# 50		: Portal
+
+# Format: [ObjectType] [X] [Y] [Extra Params...]
+
+#Player
+#id	x	y	(Y_levelBoundary)
+#Object[0]
+60001	161.5	131.058
+
+#Row of brick
+#id      x   y   cwid chei  len   Spr_be     mid	end	      vertical? (1 for vertical)
+#Object[1]
+8000 	129	178	15	20	5	8001	8001	8001	0
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[2]
+9000	113	100	1	5
+
+#Brick
+#id	x	y	type
+#Object[3]
+1	362	217	1
+
+#Brick
+#id	x	y	type
+#Object[4]
+1	376	218	1
+
+#Brick
+#id	x	y	type
+#Object[5]
+1	347	215	1
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[6]
+9000	107	200	0	15
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[7]
+9000	341	241	2	4
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[8]
+9000	308	273	0	12
+
+#Row of brick
+#id      x   y   cwid chei  len   Spr_be     mid	end	      vertical? (1 for vertical)
+#Object[9]
+8000 	517	269	15	20	5	8001	8001	8001	0
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[10]
+9000	585	206	1	5
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[11]
+9000	529	349	0	6
+
+#Gem
+#id    x      y      type
+#Object[12]
+6	554	223	0
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[13]
+9000	624	120	1	20
+
+#Gem
+#id    x      y      type
+#Object[14]
+6	497	365	1
+
+#Checkpoint
+#Object[15]
+7000	230	323
+
+#Row of brick
+#id      x   y   cwid chei  len   Spr_be     mid	end	      vertical? (1 for vertical)
+#Object[16]
+8000 	371	419	15	20	3	8001	8001	8001	0
+
+#Gem
+#id    x      y      type
+#Object[17]
+6	296	365	0
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[18]
+9000	273	345	3	5
+
+#Row of brick
+#id      x   y   cwid chei  len   Spr_be     mid	end	      vertical? (1 for vertical)
+#Object[19]
+8000 	230	347	15	20	3	8001	8001	8001	0
+
+#Spring Pad
+#Object[20]
+8	110	311
+
+#Spring Pad
+#Object[21]
+8	23	253
+
+#Brick
+#id	x	y	type
+#Object[23]
+1	-38	155	2
+
+#Brick
+#id	x	y	type
+#Object[25]
+1	-38	57	2
+
+#Row of brick
+#id      x   y   cwid chei  len   Spr_be     mid	end	      vertical? (1 for vertical)
+#Object[26]
+8000 	25	-66	15	20	3	8001	8001	8001	0
+
+#Checkpoint
+#Object[27]
+7000	46	-90
+
+#Brick
+#id	x	y	type
+#Object[28]
+1 	202	-69	1
+
+#Brick
+#id	x	y	type
+#Object[29]
+1 	218	-126	1
+
+#Brick
+#id	x	y	type
+#Object[30]
+1 	413	-69	1
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[31]
+9000	427	-65	0	20
+
+#Gem
+#id    x      y      type
+#Object[32]
+6	570	-112	0
+
+#Brick
+#id	x	y	type
+#Object[33]
+1 	620	-126	1
+
+#Brick
+#id	x	y	type
+#Object[34]
+1 	635	-125	1
+
+#Brick
+#id	x	y	type
+#Object[35]
+1 	649	-124	1
+
+#Brick
+#id	x	y	type
+#Object[36]
+1 	664	-123	1
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[37]
+9000	619	-164	2	5
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[38]
+9000	720	71	0	5
+
+#Spring Pad
+#Object[39]
+8	720	39
+
+#Door===========================================
+#id    x      y      r		b	next scene
+#Object[40]
+50	677	236	0	0	3
+
