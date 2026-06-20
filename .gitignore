@@ -244,6 +244,5 @@ ModelManifest.xml
 00-intro/
 01-skeleton/
 02-sprite/
-03-keyboard/
+03-Keyboard-States
 04-collision/
-# (Add any other old project folders you want to hide here)
