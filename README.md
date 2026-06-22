@@ -8,4 +8,7 @@ Control instructions:
   
   X: Dash
 
+Full Gameplay mechanics instruction here:
+
+https://docs.google.com/document/d/1ONr8ZKmDp8LlaNSssHkuZB3wtJrz4gNr7KT36VsbNRo/edit?usp=sharing
   
