@@ -21,9 +21,21 @@ HOW TO INSTALL Microsoft.DXSDK.D3DX
 
 ================================================================ */
 
-#include "D:/schooling/hkiv/game dev/imgui-master/imgui-master/imgui.h"
-#include "D:\schooling\hkiv\game dev\imgui-master\imgui-master\backends\imgui_impl_win32.h"
-#include "D:\schooling\hkiv\game dev\imgui-master\imgui-master\backends\imgui_impl_dx10.h"
+//#include "D:/schooling/hkiv/game dev/imgui-master/imgui-master/imgui.h"
+//#include "D:\schooling\hkiv\game dev\imgui-master\imgui-master\backends\imgui_impl_win32.h"
+//#include "D:\schooling\hkiv\game dev\imgui-master\imgui-master\backends\imgui_impl_dx10.h"
+
+
+//#include "imgui.h"
+//#include "imgui_impl_glfw.h"
+//#include "imgui_impl_opengl3.h"
+
+#include "imgui-dependencies/imgui.h"
+//#include "imgui-dependencies/imgui_impl_glfw.h"
+//#include "imgui-dependencies/imgui_impl_opengl3.h"
+#include "imgui-dependencies/imgui_impl_win32.h"
+#include "imgui-dependencies/imgui_impl_dx10.h"
+
 
 #include <fstream>
 #include <iostream>
@@ -183,7 +195,7 @@ void Render()
 			if (ImGui::Button("SAVE SCENE TO FILE", ImVec2(-1, 50))) // -1 makes the button stretch the full width
 			{
 				//	playScene->SaveScene("LevelEditor_Save.txt");
-				playScene->SaveScene("D:/schooling/hkiv/game dev/projects/06-MyProject/05-SceneManager/Levels/LevelEditor_Save.txt");
+				playScene->SaveScene("Levels/LevelEditor_Save.txt");
 			}
 			ImGui::Separator();
 

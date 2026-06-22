@@ -29,35 +29,162 @@ Portal.txt
 #Player
 #id	x	y	(Y_levelBoundary)
 #Object[0]
-60001	163.175	-333.01	5000
+60001	267.275	106.99
 
-#Row of brick
-#id      x   y   cwid chei  len   Spr_be     mid	end	      vertical? (1 for vertical)
+#Platform
+#id	x	y	cellwidth	cellheight	length	spritebegin	mid	end
 #Object[1]
-8000	129	-320	15	20	5	8001	8001	8001	0
+5 	372	117	15	15	2	51000	52000	53000
 
-#Row of brick
-#id      x   y   cwid chei  len   Spr_be     mid	end	      vertical? (1 for vertical)
+#Platform
+#id	x	y	cellwidth	cellheight	length	spritebegin	mid	end
 #Object[2]
-8000	129	-384	15	20	5	8001	8001	8001	0
+5 	372	84	15	15	2	51000	52000	53000
 
-#Row of brick
-#id      x   y   cwid chei  len   Spr_be     mid	end	      vertical? (1 for vertical)
+#Platform
+#id	x	y	cellwidth	cellheight	length	spritebegin	mid	end
 #Object[3]
-8000	115	-320	15	20	5	8001	8001	8001	1
+5 	372	13	15	15	2	51000	52000	53000
+
+#Platform
+#id	x	y	cellwidth	cellheight	length	spritebegin	mid	end
+#Object[4]
+5 	328	-29	15	15	2	51000	52000	53000
+
+#Platform
+#id	x	y	cellwidth	cellheight	length	spritebegin	mid	end
+#Object[5]
+5 	372	-29	15	15	2	51000	52000	53000
+
+#Platform
+#id	x	y	cellwidth	cellheight	length	spritebegin	mid	end
+#Object[6]
+5 	139	-101	15	15	2	51000	52000	53000
+
+#Door===========================================
+#id    x      y      r		b	next scene
+#Object[7]
+50	54	-238	204	117	11
+
+#Spring Pad
+#Object[8]
+8	144	-108
+
+#Brick
+#id	x	y	type
+#Object[9]
+1	54	-223	0
+
+#Brick
+#id	x	y	type
+#Object[10]
+1	103	171	0
+
+#Brick
+#id	x	y	type
+#Object[11]
+1	139	144	0
+
+#Brick
+#id	x	y	type
+#Object[12]
+1	172	124	0
+
+#Brick
+#id	x	y	type
+#Object[13]
+1	148	-51	1
+
+#Brick
+#id	x	y	type
+#Object[15]
+1	109	-183	2
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[16]
+9000	373	152	0	2
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[17]
+9000	252	6	0	1
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[18]
+9000	169	21	0	2
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[19]
+9000	390	53	1	1
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[20]
+9000	369	39	3	1
+
+#Spike
+#id	x	y		rotation degree * 90
+#Object[21]
+9000	242	-133	0	11
 
 #Row of brick
 #id      x   y   cwid chei  len   Spr_be     mid	end	      vertical? (1 for vertical)
-#Object[4]
-8000	207	-320	15	20	5	8001	8001	8001	1
+#Object[22]
+8000 	214	120	15	20	10	8001	8001	8001	0
 
-#Door===========================================
-#id    x      y      r		b	next scene
-#Object[5]
-50	193	-335	0	0	0	1
+#Row of brick
+#id      x   y   cwid chei  len   Spr_be     mid	end	      vertical? (1 for vertical)
+#Object[23]
+8000 	10	16	15	20	10	8001	8001	8001	0
 
-#Door===========================================
-#id    x      y      r		b	next scene
-#Object[6]
-50	128	-335	0	0	0
+#Row of brick
+#id      x   y   cwid chei  len   Spr_be     mid	end	      vertical? (1 for vertical)
+#Object[24]
+8000 	55	200	15	20	10	8001	8001	8001	0
+
+#Row of brick
+#id      x   y   cwid chei  len   Spr_be     mid	end	      vertical? (1 for vertical)
+#Object[25]
+8000 	201	16	15	20	10	8001	8001	8001	0
+
+#Row of brick
+#id      x   y   cwid chei  len   Spr_be     mid	end	      vertical? (1 for vertical)
+#Object[26]
+8000 	242	-122	15	20	10	8001	8001	8001	0
+
+#Row of brick
+#id      x   y   cwid chei  len   Spr_be     mid	end	      vertical? (1 for vertical)
+#Object[27]
+8000	401	117	15	20	16	8001	8001	8001	1
+
+#Row of brick
+#id      x   y   cwid chei  len   Spr_be     mid	end	      vertical? (1 for vertical)
+#Object[28]
+8000	312	-28	15	20	6	8001	8001	8001	1
+
+#Row of brick
+#id      x   y   cwid chei  len   Spr_be     mid	end	      vertical? (1 for vertical)
+#Object[29]
+8000	359	85	15	20	8	8001	8001	8001	1
+
+#Row of brick
+#id      x   y   cwid chei  len   Spr_be     mid	end	      vertical? (1 for vertical)
+#Object[30]
+8000	56	185	16	16	10	8001	8001	8001	1
+
+#Row of brick
+#id      x   y   cwid chei  len   Spr_be     mid	end	      vertical? (1 for vertical)
+#Object[31]
+8000	198	182	15	20	5	8001	8001	8001	1
+
+#Checkpoint
+#Object[32]
+7000	347	95
+
+#Checkpoint
+#Object[33]
+7000	91	-7
 

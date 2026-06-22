@@ -11,7 +11,7 @@
 #define ID_ANI_FALLING_BRICK 10001
 #define BRICK_WIDTH 14
 #define BRICK_BBOX_WIDTH 14
-#define BRICK_BBOX_HEIGHT 14
+//#define BRICK_BBOX_HEIGHT 14
 
 class CBrick : public CGameObject {
 public:

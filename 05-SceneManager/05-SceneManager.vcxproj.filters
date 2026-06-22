@@ -14,10 +14,10 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="Header Files\imgui">
-      <UniqueIdentifier>{de7f7c63-0db9-4331-8667-0a3c615b0939}</UniqueIdentifier>
+      <UniqueIdentifier>{15110c1d-f4fc-47ac-8af5-f2a7e5e37629}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\imgui">
-      <UniqueIdentifier>{2c9a53be-ec9a-449b-b3f0-85e37f51a3ec}</UniqueIdentifier>
+      <UniqueIdentifier>{c28da7f8-65e2-463e-8322-da28938f22a1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -108,32 +108,35 @@
     <ClCompile Include="SpringPad.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\imgui-master\imgui-master\imgui_widgets.cpp">
-      <Filter>Source Files\imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\imgui-master\imgui-master\imgui.cpp">
-      <Filter>Source Files\imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\imgui-master\imgui-master\imgui_demo.cpp">
-      <Filter>Source Files\imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\imgui-master\imgui-master\imgui_draw.cpp">
-      <Filter>Source Files\imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\imgui-master\imgui-master\backends\imgui_impl_dx10.cpp">
-      <Filter>Source Files\imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\imgui-master\imgui-master\backends\imgui_impl_win32.cpp">
-      <Filter>Source Files\imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\imgui-master\imgui-master\imgui_tables.cpp">
-      <Filter>Source Files\imgui</Filter>
-    </ClCompile>
     <ClCompile Include="soundmanager.h">
       <Filter>Header Files</Filter>
     </ClCompile>
     <ClCompile Include="soundmanager.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-dependencies\imgui.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-dependencies\imgui_demo.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-dependencies\imgui_draw.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-dependencies\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-dependencies\imgui_tables.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-dependencies\imgui_widgets.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-dependencies\imgui_impl_dx10.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-dependencies\imgui_impl_win32.cpp">
+      <Filter>Source Files\imgui</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -221,28 +224,34 @@
     <ClInclude Include="SpringPad.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\imgui-master\imgui-master\imstb_textedit.h">
+    <ClInclude Include="imgui-dependencies\imgui_impl_opengl3.h">
       <Filter>Header Files\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\imgui-master\imgui-master\imstb_truetype.h">
+    <ClInclude Include="imgui-dependencies\imgui_internal.h">
       <Filter>Header Files\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\imgui-master\imgui-master\imconfig.h">
+    <ClInclude Include="imgui-dependencies\imstb_rectpack.h">
       <Filter>Header Files\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\imgui-master\imgui-master\imgui.h">
+    <ClInclude Include="imgui-dependencies\imstb_textedit.h">
       <Filter>Header Files\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\imgui-master\imgui-master\backends\imgui_impl_dx10.h">
+    <ClInclude Include="imgui-dependencies\imstb_truetype.h">
       <Filter>Header Files\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\imgui-master\imgui-master\backends\imgui_impl_win32.h">
+    <ClInclude Include="imgui-dependencies\imconfig.h">
       <Filter>Header Files\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\imgui-master\imgui-master\imgui_internal.h">
+    <ClInclude Include="imgui-dependencies\imgui.h">
       <Filter>Header Files\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\imgui-master\imgui-master\imstb_rectpack.h">
+    <ClInclude Include="imgui-dependencies\imgui_impl_dx10.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-dependencies\imgui_impl_win32.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-dependencies\imgui_impl_opengl3_loader.h">
       <Filter>Header Files\imgui</Filter>
     </ClInclude>
   </ItemGroup>
