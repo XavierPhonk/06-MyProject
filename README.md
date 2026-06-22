@@ -1,4 +1,4 @@
-This is the game i made for "Introduction to Game Development"
+This is the game I made for "Introduction to Game Development"
 
 Control instructions:
 
