@@ -1,7 +1,7 @@
-This is the game i made for "Introduction to Game Development"
+This is the game i made for "Introduction to Game Development" \n
 
-Control instructions:
-  Arrow keys: moving around
-  Spacebar: Jump
-  X: Dash
+Control instructions:\n
+  Arrow keys: moving around\n
+  Spacebar: Jump\n
+  X: Dash\n
   
