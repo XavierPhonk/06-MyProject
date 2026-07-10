@@ -1,4 +1,4 @@
-This is the game i made for "Introduction to Game Development"
+This is the game I made for "Introduction to Game Development"
 
 Control instructions:
 
@@ -7,6 +7,8 @@ Control instructions:
   Spacebar: Jump
   
   X: Dash
+
+  F1: open debug mode, with infinite jump
 
 Full Gameplay mechanics instruction here:
 
