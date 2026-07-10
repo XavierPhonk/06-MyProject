@@ -12,6 +12,7 @@
 #define BRICK_WIDTH 14
 #define BRICK_BBOX_WIDTH 14
 #define BRICK_BBOX_HEIGHT 14
+//for some reason, it needs the duplicate re-define
 
 class CBrick : public CGameObject {
 public:
